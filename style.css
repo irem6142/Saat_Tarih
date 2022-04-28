@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    background-color: purple;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 300px;
+    background: pink;
+    border: 3px solid white;
+    box-shadow: 8px 10px black;
+}
+
+.hour {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: white;
+    border: 5px black solid;
+    font-size: 50px;
+    box-shadow: 3px 3px black;
+}
+
+.day {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    text-shadow: 0px 1px black;
+}
