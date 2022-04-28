@@ -29,6 +29,16 @@ setInterval(function() {
         minutes.innerHTML = dakika + "&#127989; "
         seconds.innerHTML = saniye + "&#128564; "
     }
+    if (dakika < 10 && saat >= 0 && saat < 8) {
+        minutes.innerHTML = "0" + dakika + "&#127989; "
+    }
+    if (dakika < 10 && saat >= 22) {
+        minutes.innerHTML = "0" + dakika + "&#127989; "
+    }
+    if (dakika < 10 && saat >= 8 && saat <= 21) {
+        minutes.innerHTML = "0" + dakika + "&#127989; "
+    }
+
     if (saniye < 10 && saat >= 0 && saat < 8) {
         seconds.innerHTML = "0" + saniye + "&#128564;"
     }
