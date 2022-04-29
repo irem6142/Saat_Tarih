@@ -3,7 +3,7 @@
 
 
 
-##Tarih kısmının yanındaki çiçek ve ağaç emojisi ilkbahar aylarında,
-##Kış aylarında  kardan adam,
-##Yaz aylarında güneş,
-##Sonbahar aylarında ise yaprak olmaktadır.
+## Tarih kısmının yanındaki çiçek ve ağaç emojisi ilkbahar aylarında,
+## Kış aylarında  kardan adam,
+## Yaz aylarında güneş,
+## Sonbahar aylarında ise yaprak olmaktadır.
