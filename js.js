@@ -14,29 +14,29 @@ setInterval(function() {
     minutes.innerHTML = dakika
     seconds.innerHTML = saniye
     if (saat >= 8 && saat <= 21) {
-        hour.innerHTML = "&#128578;" + saat + "&#127989"
-        minutes.innerHTML = dakika + "&#127989;"
+        hour.innerHTML = "&#128578;" + saat + "."
+        minutes.innerHTML = dakika + "."
         seconds.innerHTML = saniye + "&#128522;"
 
     }
     if (saat >= 0 && saat < 8) {
-        hour.innerHTML = "&#128564;" + "0" + saat + " &#127989;"
-        minutes.innerHTML = dakika + "&#127989; "
+        hour.innerHTML = "&#128564;" + "0" + saat + "."
+        minutes.innerHTML = dakika + "."
         seconds.innerHTML = saniye + "&#128564; "
     }
     if (saat >= 22) {
-        hour.innerHTML = "&#128564;" + saat + " &#127989;"
-        minutes.innerHTML = dakika + "&#127989; "
+        hour.innerHTML = "&#128564;" + saat + "."
+        minutes.innerHTML = dakika + ".; "
         seconds.innerHTML = saniye + "&#128564; "
     }
     if (dakika < 10 && saat >= 0 && saat < 8) {
-        minutes.innerHTML = "0" + dakika + "&#127989; "
+        minutes.innerHTML = "0" + dakika + "."
     }
     if (dakika < 10 && saat >= 22) {
-        minutes.innerHTML = "0" + dakika + "&#127989; "
+        minutes.innerHTML = "0" + dakika + "."
     }
     if (dakika < 10 && saat >= 8 && saat <= 21) {
-        minutes.innerHTML = "0" + dakika + "&#127989; "
+        minutes.innerHTML = "0" + dakika + "."
     }
 
     if (saniye < 10 && saat >= 0 && saat < 8) {
