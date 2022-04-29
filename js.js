@@ -22,7 +22,7 @@ setInterval(function() {
     if (saat >= 0 && saat < 8) {
         hour.innerHTML = "&#128564;" + "0" + saat + "."
         minutes.innerHTML = dakika + "."
-        seconds.innerHTML = saniye + "&#128564; "
+        seconds.innerHTML = saniye + "&#128564;"
     }
     if (saat >= 22) {
         hour.innerHTML = "&#128564;" + saat + "."
@@ -62,13 +62,13 @@ setInterval(function() {
     if (gun < 10) {
         day.innerHTML = "0" + gun
     }
-    if (ay => 1 && ay <= 2) {
+    if (ay >= 1 && ay <= 2) {
         month.innerHTML = "0" + ay
 
-        year.innerHTML = "&#9924;"
+        year.innerHTML = yil + "&#9924;"
     }
     if (ay == 12) {
-        year.innerHTML = "&#9924;"
+        year.innerHTML = yil + "&#9924;"
     }
     if (ay >= 3 && ay <= 5) {
         day.innerHTML = "&#127800;" + gun
@@ -82,9 +82,14 @@ setInterval(function() {
         year.innerHTML = yil + "&#127774;"
 
     }
-    if (ay >= 9 && ay <= 11) {
+    if (ay == 9) {
+        day.innerHTML = "&#127809;" + gun
+        month.innerHTML = "0" + ay
+        year.innerHTML = yil + "&#127810;"
+    }
+    if (ay >= 10 && ay <= 11) {
         day.innerHTML = "	&#127809;" + gun
-
+        month.innerHTML = ay
         year.innerHTML = yil + "&#127810;"
 
     }
