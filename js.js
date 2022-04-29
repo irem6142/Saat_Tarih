@@ -26,7 +26,7 @@ setInterval(function() {
     }
     if (saat >= 22) {
         hour.innerHTML = "&#128564;" + saat + "."
-        minutes.innerHTML = dakika + ".; "
+        minutes.innerHTML = dakika + "."
         seconds.innerHTML = saniye + "&#128564; "
     }
     if (dakika < 10 && saat >= 0 && saat < 8) {
