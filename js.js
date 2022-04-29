@@ -64,10 +64,11 @@ setInterval(function() {
     }
     if (ay >= 1 && ay <= 2) {
         month.innerHTML = "0" + ay
-
+        day.innerHTML =  "&#9924;" + gun
         year.innerHTML = yil + "&#9924;"
     }
     if (ay == 12) {
+          day.innerHTML =  "&#9924;" + gun
         year.innerHTML = yil + "&#9924;"
     }
     if (ay >= 3 && ay <= 5) {
