@@ -100,5 +100,5 @@ setInterval(function() {
 
 }, 1000);
 let a = prompt("Merhaba", "Adınız  :")
-let h = document.getElementById("h");
+let h = document.getElementById("h")
 h.innerHTML += a
