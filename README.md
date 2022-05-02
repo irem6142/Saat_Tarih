@@ -1,6 +1,7 @@
 
 
-![Saat_Tarih-Google-Chrome-2022-05-02-03-07-32](https://user-images.githubusercontent.com/83772404/166170463-eacd2084-e243-43a5-81c2-9fd5a8c66bb2.gif)
+
+![Saat_Tarih-Google-Chrome-2022-05-03-00-04-00](https://user-images.githubusercontent.com/83772404/166327934-38180e77-7528-4664-85ac-dc8c0ac79bb1.gif)
 
 
 ### Patika ödevi kullanıcıdan ismini alıp tarih ve saat ekleme . <br>Saat 22.00-07.00 arası uyku emojisiyken diğer saatler gülen emojidir. <br> Tarihin yanındaki emojiler ; yaz ayında güneş,sonbahar ayında yaprak,kış ayında kardan adam , ilkbahar ayında da ağaç ve çiçek  olmaktadır.
