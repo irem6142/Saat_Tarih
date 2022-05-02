@@ -1,10 +1,6 @@
 
-![WhatsApp-Video-2022-04-29-at-22 12 28](https://user-images.githubusercontent.com/83772404/166029329-912e8ad7-0493-43fd-b5c0-990e5b9648d5.gif)
+
+![Saat_Tarih-Google-Chrome-2022-05-02-03-07-32](https://user-images.githubusercontent.com/83772404/166170463-eacd2084-e243-43a5-81c2-9fd5a8c66bb2.gif)
 
 
-## Saat 22.00-07.00 arasında uyku emojileri diğer saatlerde gülen emojilerdir.
-
-## Tarih kısmının yanındaki çiçek ve ağaç emojisi ilkbahar aylarında,
-## Kış aylarında  kardan adam,
-## Yaz aylarında güneş,
-## Sonbahar aylarında ise yaprak olmaktadır.
+###Patika ödevi kullanıcıdan ismini alıp,tarih ve saat ekleme .Saat 22.00-07.00 arası uyku emojisiyken diğer saatler gülen emojidir.Tarihin yanındaki emojiler ;yaz aylarında güneş,sonbahar ayında yaprak,kış ayında kardan adam , ilkbahar ayında da ağaç ve çiçek  olmaktadır.
