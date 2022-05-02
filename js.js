@@ -64,11 +64,11 @@ setInterval(function() {
     }
     if (ay >= 1 && ay <= 2) {
         month.innerHTML = "0" + ay
-        day.innerHTML =  "&#9924;" + gun
+        day.innerHTML = "&#9924;" + gun
         year.innerHTML = yil + "&#9924;"
     }
     if (ay == 12) {
-          day.innerHTML =  "&#9924;" + gun
+        day.innerHTML = "&#9924;" + gun
         year.innerHTML = yil + "&#9924;"
     }
     if (ay >= 3 && ay <= 5) {
@@ -99,3 +99,6 @@ setInterval(function() {
 
 
 }, 1000);
+let a = prompt("Merhaba", "Adınız  :")
+let h = document.getElementById("h");
+h.innerHTML += a
