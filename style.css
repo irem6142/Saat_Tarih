@@ -13,7 +13,7 @@ body {
     background: pink;
     border: 3px solid white;
     box-shadow: 8px 10px black;
-    z-index:2;
+    z-index: 5;
 }
 
 .hour {
