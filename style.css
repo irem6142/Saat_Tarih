@@ -14,7 +14,10 @@ body {
     background: pink;
     border: 3px solid white;
     box-shadow: 8px 10px black;
+}
 
+div h2#h {
+    margin-top: 80px;
 }
 
 .hour {
@@ -32,6 +35,10 @@ body {
     border: 5px black solid;
     font-size: 50px;
     box-shadow: 3px 3px black;
+}
+
+.hour span#minutes {
+    margin-top: 8px;
 }
 
 .day {
@@ -53,11 +60,11 @@ body {
     font-size: 40px;
     font-style: oblique;
 }
+
 .particles-js-canvas-el {
     position: absolute;
     top: 0;
     left: 0;
     width: 100px;
     height: 100px;
-
 }
