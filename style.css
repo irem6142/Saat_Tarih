@@ -1,5 +1,9 @@
+*
+{
+     box-sizing: border-box;
+}
 body {
-    box-sizing: border-box;
+   
     background-color: purple;
 }
 
