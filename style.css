@@ -1,6 +1,8 @@
 *
 {
      box-sizing: border-box;
+     margin: 0;
+    padding: 0;
 }
 body {
    
@@ -19,10 +21,15 @@ body {
     border: 3px solid white;
     box-shadow: 8px 10px black;
 }
-
-div h2#h {
-    margin-top: 80px;
+.container #h {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    top: 50px;
+    font-size: 50px;
 }
+
+
 
 .hour {
     position: absolute;
@@ -54,16 +61,7 @@ div h2#h {
     text-shadow: 0px 1px black;
 }
 
-#h {
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    z-index: 20;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 40px;
-    font-style: oblique;
-}
+
 
 .particles-js-canvas-el {
     position: absolute;
@@ -71,4 +69,10 @@ div h2#h {
     left: 0;
     width: 100px;
     height: 100px;
+}
+
+@media screen and(max-width:600px) {
+    hour span#minutes {
+        margin-top: 6px;
+    }
 }
