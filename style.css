@@ -73,6 +73,6 @@ body {
 
 @media screen and(max-width:600px) {
     hour span#minutes {
-        margin-top: 6px;
+        margin-top: 4px;
     }
 }
